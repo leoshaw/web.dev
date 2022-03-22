@@ -212,7 +212,7 @@ mining.
 ### Are there any limitations to using BigQuery?
 
 Yes, the most important limitation is that by default users can only query 1TB
-worth of data per month. Beyond that, the standard rate of $5/TB applies.
+worth of data per month. Beyond that, the standard rate of $5/TB applies.  There are materialized views under the `materialized` node that can reduce the cost of querying data by time period, domain etc. and some useful examples in the [CrUX cookbook](https://github.com/GoogleChrome/CrUX/tree/main/sql)
 
 ### Where can I learn more about BigQuery?
 
